@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Assignments
+title: Exercises
 has_children: true
 parent: CS 188
 ---
 
 
-# Assignments
+# Written Exercises
 ---
 
 These are my solution to various written problems found on the internet that I used to reinforce my 

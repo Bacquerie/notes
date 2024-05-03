@@ -15,7 +15,7 @@ nor affiliated to such institutions. This is only a product of my interest in th
 
 This page concentrates information about:
 
-- **Assignments**, which are written exercises, homework, worksheets that I used to reinforce my
+- **Exercises**, which are written exercises, homework, worksheets that I used to reinforce my
     understanding of the material
 
 - **Notes**, which present my understanding of the topics. As such, these notes might be inaccurate
@@ -25,5 +25,6 @@ This page concentrates information about:
     programming projects, and my playground for diverse experiments
 
 
+<!-- REFERENCES -->
 [CS 188]: https://inst.eecs.berkeley.edu/~cs188/sp24/
 [CS 221]: https://stanford-cs221.github.io/spring2024/
