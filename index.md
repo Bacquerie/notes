@@ -19,12 +19,18 @@ years.
 
 For now, I only have a bit of content about:
 
-- **Artificial Intelligence**, mostly but not exclusively based on *Berkeley's CS 188* public content.
+- **[Artificial Intelligence]**, mostly but not exclusively based on *Berkeley's CS 188* public content.
+- **[Deep Learning]**, mostly but not exclusively based on *Stanford's CS 230* public content, and its
+related Coursera specialization.
 
 But I'm planning to add the product of my study for:
 
 - **Stanford's CS 129** (finished; pending to add to this site)
-- **Stanford's CS 230** (in progress; pending to add to this site)
 - **Coursera's Natural Language Processing Specialization** (finished; pending to add to this site)
 - Many more when I actually start OMSCS: Artificial Intelligence, Deep Learning, Computer Vision,
 Natural Language Processing, Game AI, Artificial Intelligence for Robotics, etc...
+
+
+<!-- REFERENCES -->
+[Artificial Intelligence]: cs188
+[Deep Learning]: cs230

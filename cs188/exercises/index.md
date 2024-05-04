@@ -1,18 +1,18 @@
 ---
 layout: page
-title: Exercises
+title: CS 188 - Exercises
 has_children: true
 parent: CS 188
 ---
 
 
-# Written Exercises
+# CS 188 - Written Exercises
 ---
 
 These are my solution to various written problems found on the internet that I used to reinforce my 
 conceptual understanding of the topics. For programming exercises and practices refer to
-[Programming].
+[CS 188 - Programming].
 
 
 <!-- REFERENCES -->
-[Programming]: ../Programming
+[CS 188 - Programming]: ../programming

@@ -1,17 +1,18 @@
 ---
 layout: home
-title: CS 188
+title: CS 230
 has_children: true
 toc: false
 ---
 
 
-# Berkeley's CS 188: Artificial Intelligence
+# Stanford's CS 230: Deep Learning
 ---
 
-This page concentrates the material I used to study *Artificial Intelligence*. I based my study
-mostly on the public material from [CS 188] and [CS 221], but I am not enrolled in those courses,
-nor affiliated to such institutions. This is only a product of my interest in the subject.
+This page concentrates the material I used to study *Deep Learning*. I based my study mostly on the
+public material from [CS 230] and [Deep Learning Specialization], but I am not enrolled in
+Stanford's course, nor affiliated to the institution. This is mostly a product of my interest in the
+subject.
 
 This page concentrates information about:
 
@@ -27,12 +28,12 @@ This page concentrates information about:
 ---
 
 
-**NOTE**: You will probably notice that all subpages of this one are prefixed by **CS 188**. This
+**NOTE**: You will probably notice that all subpages of this one are prefixed by **CS 230**. This
 is due to current limitations of *just-the-docs*, where some navigation functions are based on page
 titles, which, if you have several pages with the same name, may provoke name collisions and
 mixed references.
 
 
 <!-- REFERENCES -->
-[CS 188]: https://inst.eecs.berkeley.edu/~cs188/sp24/
-[CS 221]: https://stanford-cs221.github.io/spring2024/
+[CS 230]: https://cs230.stanford.edu/
+[Deep Learning Specialization]: https://www.coursera.org/specializations/deep-learning

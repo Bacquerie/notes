@@ -3,7 +3,7 @@ layout: mathjax
 nav_order: 2
 title: Informed Search
 grand_parent: CS 188
-parent: Notes
+parent: CS 188 - Notes
 ---
 
 {% include mathjax.html %}

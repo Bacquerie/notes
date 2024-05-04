@@ -3,7 +3,7 @@ layout: page
 nav_order: 1
 title: Uninformed Search
 grand_parent: CS 188
-parent: Exercises
+parent: CS 188 - Exercises
 ---
 
 

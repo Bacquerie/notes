@@ -1,12 +1,12 @@
 ---
 layout: page
-title: CS 188 - Programming
+title: CS 230 - Programming
 has_children: true
-parent: CS 188
+parent: CS 230
 ---
 
 
-# CS 188 - Programming
+# CS 230 - Programming
 ---
 
 This section contains programming exercises, labs, practices, etc. related to the topics of the
