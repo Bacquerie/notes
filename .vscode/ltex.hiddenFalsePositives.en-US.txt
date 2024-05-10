@@ -1,0 +1,3 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QEach of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Qs_i\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\QM \\times N\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Qg_i$$ along the way, the Pacbabies must, between them, eat all the dots in the maze.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_RULE","sentence":"^\\QPacman's location\n Location and type of each pellet\n How far Pacman has travelled\n Current time\n How many pellets Pacman has eaten, and the point value of each eaten pellet\n Total points Pacman has won\n Which pellets Pacman has eaten\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QCreating a total of \\(O\\pars{(mn)^k \\, 2^{mn}}\\) world configurations.\\E$"}

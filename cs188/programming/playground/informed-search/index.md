@@ -5,19 +5,13 @@ title: Informed Search
 grand_parent: CS 188 - Programming
 parent: CS 188 - Playground
 ---
-
-
-# Informed Search
+# INFORMED SEARCH
 {: .no_toc }
 ---
-
-
 ## Table of Contents
 {: .no_toc .text-delta }
-
 - TOC
 {:toc}
-
 ---
 
 

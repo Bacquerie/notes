@@ -4,10 +4,9 @@ title: CS 230
 has_children: true
 toc: false
 ---
-
-
-# Stanford's CS 230: Deep Learning
+# STANFORD'S CS 230: DEEP LEARNING
 ---
+
 
 This page concentrates the material I used to study *Deep Learning*. I based my study mostly on the
 public material from [CS 230] and [Deep Learning Specialization], but I am not enrolled in

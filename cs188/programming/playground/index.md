@@ -5,9 +5,7 @@ grand_parent: CS 188
 has_children: true
 parent: CS 188 - Programming
 ---
-
-
-# CS 188 - Playground
+# CS 188 - PLAYGROUND
 ---
 
 

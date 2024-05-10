@@ -4,10 +4,9 @@ layout: mathjax
 parent: Berkeley's CS 188
 nav_order: 2
 ---
-
-
-# Informed Search
+# INFORMED SEARCH
 ---
+
 
 **Reflex agents**. Choose actions based only on their current state, and do not consider future
 consequences of such actions. They are not rational, as they do not look to have an optimal behavior

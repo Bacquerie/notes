@@ -8,23 +8,22 @@ parent: CS 188 - Exercises
 {% include mathjax.html %}
 
 # UNINFORMED SEARCH
-{: .no_toc }
+{:.no_toc}
 ---
-
 ## Table of Contents
-{: .no_toc .text-delta }
+{:.no_toc.text-delta}
 - TOC
 {:toc}
-
-
 ---
-<!-- EXERCISE 1 -->
-## 1. Search Formulation
+
+
+<!-- SEARCH PROBLEM FORMULATION ------------------------------------------------------------------->
+## SEARCH PROBLEM FORMULATION
 
 Pacman bought a car, was speeding in Pac-City, and SpongeBob wasn’t able to catch him. Now Pacman
 has run out of gas, his car has stopped, and he is currently hiding out at an undisclosed location.
 
-In this problem, you are on the SpongeBob side, tryin’ to catch Pacman!
+In this problem, you are on the SpongeBob side, trying to catch Pacman!
 
 There are still $$p$$ SpongeBob cars in the Pac-City of dimension $$m$$ by $$n$$. In this problem,
 all SpongeBob cars can move, with two distinct integer controls: *throttle* and *steering*, but
@@ -72,8 +71,8 @@ able to represent all states in the search space.
 > <details>
 >     <summary><b>Solution</b></summary>
 >
->     The branching factor depends on the number of actions available, which are 9; 3 for throttle,
->     and 3 for steering.
+>     The branching factor depends on the number of actions available, which are <b>9</b>; 3 for
+>     throttle, and 3 for steering.
 > </details>
 
 
@@ -117,10 +116,11 @@ combined pass through all $$m \times n$$ grid locations. What's the size of the 
 >     \(9^p\) possibilities.
 > </details>
 
-
 ---
-<!-- EXERCISE 2 -->
-## 2. Graph Search
+
+
+<!-- GRAPH SEARCH BY HAND ------------------------------------------------------------------------->
+## GRAPH SEARCH BY HAND
 
 ```mermaid
 graph LR
@@ -141,7 +141,7 @@ C -- 2 --> G
 C -- 1 --> D
 D -- 5 --> G
 ```
-{: .text-center }
+{:.text-center}
 
 For each of the following graph search strategies, work out the order in which states are expanded,
 as well as the path returned by graph search. In all cases, assume ties resolve in such a way that
@@ -373,3 +373,41 @@ represent the node `A` with parent `S`.
 >
 >     With this info we reconstruct the path <code>Start, A, C, Goal</code>, with cost 8.
 > </details>
+
+---
+
+
+<!-- SEARCH PROPERTIES ------------------------------------------------------------------------->
+## SEARCH PROPERTIES
+
+Consider a graph search problem where, for every action, the cost is at least $$\epsilon > 0$$, and
+explain whether each of the following statements is true or false.
+
+
+- Depth-first graph search is guaranteed to return an optimal solution.
+> <details>
+>    <summary><b>Solution</b></summary>
+> 
+>    <b>False</b>. Among many other reasons, depth-first search does not even consider costs; thus,
+>    there is no guarantee of optimality.
+> </details>
+
+
+- Breadth-first graph search is guaranteed to return an optimal solution.
+> <details>
+>    <summary><b>Solution</b></summary>
+> 
+>    <b>False</b>. Breadth-first search does not even consider costs; thus, there is no guarantee
+>    of optimality based on cost, only based on distance from start state.
+> </details>
+
+
+- Uniform-cost graph search is guaranteed to return an optimal solution.
+> <details>
+>    <summary><b>Solution</b></summary>
+> 
+>    <b>True</b>. Uniform-cost search is complete and optimal, and its main purpose is to minimize
+>    costs.
+> </details>
+
+---

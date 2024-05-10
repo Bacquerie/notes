@@ -4,10 +4,9 @@ title: Logistic Regression. Cat vs Not-Cat
 grand_parent: CS 230 - Programming
 parent: CS 230 - Playground
 ---
-
-
-# Logistic Regression: Cat vs Not-Cat
+# LOGISTIC REGRESSION: CAT VS NOT-CAT
 ---
+
 
 The following code demonstrates an [implementation] of the *Logistic Regression* algorithm applied
 to the **cat-vs-noncat** [training] and [test] datasets. Explanation will only be added when the

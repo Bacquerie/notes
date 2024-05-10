@@ -5,23 +5,17 @@ title: Uninformed Search
 grand_parent: CS 188 - Programming
 parent: CS 188 - Playground
 ---
-
-
-# Uninformed Search
+# UNINFORMED SEARCH
 {: .no_toc }
 ---
-
-
 ## Table of Contents
 {: .no_toc .text-delta }
-
 - TOC
 {:toc}
-
 ---
 
 
-## Depth-first Search
+## DEPTH-FIRST SEARCH
 
 The following snippet is based on my implementation for CS 188's **[Search project]**. Due to the
 small changes, and missing type definitions, it could be taken as pseudocode.
@@ -46,7 +40,7 @@ def depth_first_search(problem: SearchProblem) -> list[Action]:
 ```
 ---
 
-## Breadth-first Search
+## BREADTH-FIRST SEARCH
 
 This implementation basically only changes the `Stack` for a `Queue`.
 
@@ -70,7 +64,7 @@ def breadth_first_search(problem: SearchProblem) -> list[Action]:
 ```
 ---
 
-## Uniform-cost Search
+## UNIFORM-COST SEARCH
 
 Same as above snippets, but using a `PriorityQueue`, and considering the (backward) cost to reach
 each node.

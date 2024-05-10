@@ -4,10 +4,9 @@ title: CS 188
 has_children: true
 toc: false
 ---
-
-
-# Berkeley's CS 188: Artificial Intelligence
+# BERKELEY'S CS 188: ARTIFICIAL INTELLIGENCE
 ---
+
 
 This page concentrates the material I used to study *Artificial Intelligence*. I based my study
 mostly on the public material from [CS 188] and [CS 221], but I am not enrolled in those courses,

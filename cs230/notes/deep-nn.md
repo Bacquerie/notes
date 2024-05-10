@@ -6,14 +6,11 @@ grand_parent: CS 230
 parent: CS 230 - Notes
 ---
 {% include mathjax.html %}
-
-
-# Deep Neural Networks
+# DEEP NEURAL NETWORKS
 ---
 
 
-<!-- FORWARD PROPAGATION -->
-## Forward Propagation
+## FORWARD PROPAGATION
 
 Also called the *prediction step*, propagates the inputs $$\mathbf{X} = a^{[0]}$$ all the way to
 the output layer, which produces the predicted output $$\hat{y}$$.
@@ -37,8 +34,7 @@ $$a^{[i]} = (n_i, m)$$
 {: .highlight .py-4 }
 
 
-<!-- BACKWARD PROPAGATION -->
-## Backward Propagation
+## BACKWARD PROPAGATION
 
 In order for a neural network to be useful, it not only needs to be able to predict values, but to
 improve the quality of those values, such that $$\hat{y} \approx y$$. What makes a neural network
@@ -107,24 +103,24 @@ particular function (or its derivative, actually) should be straightforward.
 {: .highlight .py-4 }
 
 
----
-<!-- ACTIVATION FUNCTIONS -->
-## Activation Functions
+## ACTIVATION FUNCTIONS
 
-### Linear
+### LINEAR
 
 Also called *identity*, leaves the input unaltered:
 
 $$ a(z) = z \hspace{5cm} a'(z) = 1 $$
 
-### ReLU
+
+### RELU
 
 Rectified Linear Unit. Clips negative values to 0, leaving positive values unchanged:
 
 $$ a(z) = \mbox{max}(0, z) \hspace{3cm} a'(z) = 1$$ where $$z \ge 0$$; 0 elsewhere
 {: .text-center}
 
-### Sigmoid
+
+### SIGMOID
 
 Outputs values between 0 and 1, making its output be interpretable as the probability that its
 input is 1.
@@ -132,11 +128,9 @@ input is 1.
 $$ a(z) = \frac{1}{1 + e^{-z}} \hspace{5cm} a'(z) = a(z) (1 - a(z))$$
 
 
----
-<!-- LOSS FUNCTIONS -->
-## Loss Functions
+## LOSS FUNCTIONS
 
-### Mean Squared Loss
+### MEAN SQUARED LOSS
 
 Mean squared euclidean distance between $$y$$ and $$\hat{y}$$.
 
@@ -146,7 +140,8 @@ $$
     \mathcal{L}' = \frac{1}{m} \pars{\hat{y} - y}
 $$
 
-### Binary Cross-Entropy
+
+### BINARY CROSS-ENTROPY
 
 It's the usual loss associated to binary classification.
 

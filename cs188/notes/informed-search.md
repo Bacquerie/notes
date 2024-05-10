@@ -5,29 +5,28 @@ title: Informed Search
 grand_parent: CS 188
 parent: CS 188 - Notes
 ---
-
 {% include mathjax.html %}
-
-
-# Informed Search
+# INFORMED SEARCH
 ---
+
 
 Informed search refers to a set of algorithms who possess (or are able to compute) additional
 information about the problem or the goal, and use this additional information to make better
 decisions about the nodes they expand.
 
 
-## Heuristics
+## HEURISTICS
 
 A *heuristic* is a function $$h(n)$$ that estimates how close a state is to the goal.
 
 
-## Greedy Search
+## GREEDY SEARCH
 
 It's a type of informed search algorithm that at any given time, chooses the node closest (with
 the minimum heuristic value) to the goal. It is also called *best-first search*.
 
-## A* Search
+
+## A* SEARCH
 
 Combines the characteristics of uniform-cost search and greedy search as it takes into account both:
 
@@ -37,7 +36,8 @@ Combines the characteristics of uniform-cost search and greedy search as it take
 > A* cost function is $$f(n) = g(n) + h(n)$$.
 {: .highlight .py-4 }
 
-### Admissibility and Consistency
+
+## ADMISSIBILITY AND CONSISTENCY
 
 For A* *tree search* to work, its heuristic $$h$$ must be *admissible*; that is:
 

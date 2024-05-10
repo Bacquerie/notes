@@ -4,9 +4,7 @@ title: CS 188 - Programming
 has_children: true
 parent: CS 188
 ---
-
-
-# CS 188 - Programming
+# CS 188 - PROGRAMMING
 ---
 
 This section contains programming exercises, labs, practices, etc. related to the topics of the
