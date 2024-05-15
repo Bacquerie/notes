@@ -15,18 +15,18 @@ information about the problem or the goal, and use this additional information t
 decisions about the nodes they expand.
 
 
-## HEURISTICS
+## Heuristics
 
 A *heuristic* is a function $$h(n)$$ that estimates how close a state is to the goal.
 
 
-## GREEDY SEARCH
+## Greedy Search
 
 It's a type of informed search algorithm that at any given time, chooses the node closest (with
 the minimum heuristic value) to the goal. It is also called *best-first search*.
 
 
-## A* SEARCH
+## A* Search
 
 Combines the characteristics of uniform-cost search and greedy search as it takes into account both:
 
@@ -34,10 +34,10 @@ Combines the characteristics of uniform-cost search and greedy search as it take
 - The estimated cost of reaching the goal (*forward cost* $$h(n)$$)
 
 > A* cost function is $$f(n) = g(n) + h(n)$$.
-{: .highlight .py-4 }
+{:.highlight.p-4}
 
 
-## ADMISSIBILITY AND CONSISTENCY
+## Admissibility And Consistency
 
 For A* *tree search* to work, its heuristic $$h$$ must be *admissible*; that is:
 
@@ -54,4 +54,4 @@ where $$A, B$$ are nodes in the graph $$G$$.
 
 > An admissible heuristic is not necessarily consistent, but a consistent heuristic is always
 admissible.
-{: .highlight .py-4 }
+{:.highlight.p-4}

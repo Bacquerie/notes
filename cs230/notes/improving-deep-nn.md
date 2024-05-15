@@ -10,7 +10,7 @@ parent: CS 230 - Notes
 ---
 
 
-## TRAIN / DEV / TEST SETS
+## Train / Dev / Test Sets
 
 - The **training set** is used to train your algorithm
 - The **dev set** is used to validate the efficiency of different algorithms or architectures,
@@ -19,7 +19,7 @@ parent: CS 230 - Notes
     new data
 
 
-## BIAS / VARIANCE INTUITION
+## Bias / Variance Intuition
 
 Non-formally the bias and variance can be associated to whether your algorithm *underfits* or
 *overfits* the training and dev sets. As a summary:
@@ -31,7 +31,7 @@ A *just right* algorithm should be able to be very good at both sets; bias / var
 but not too high. Both should be approximately equal and not too far from the **Bayes error**.
 
 
-## REGULARIZATION
+## Regularization
 
 It's an additional term to the cost function that prevents weights from growing too large, by
 penalizing them.

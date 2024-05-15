@@ -10,14 +10,14 @@ parent: CS 188 - Notes
 ---
 
 
-## REFLEX AGENTS
+## Reflex Agents
 
 Choose actions based only on their current state, and do not consider future consequences of such
 actions. They are not rational, as they do not look to have an optimal behavior (minimize a cost
 function).
 
 
-## PLANNING AGENTS
+## Planning Agents
 
 Elaborate a sequence of actions to reach a *goal*, considering how the world evolves in response to
 their actions. They could be:
@@ -26,7 +26,7 @@ their actions. They could be:
 - **Complete**, if, given that a solution exists, they are able to find it
 
 
-## SEARCH PROBLEMS
+## Search Problems
 
 Consist of:
 - A state space
@@ -36,7 +36,7 @@ Consist of:
 A *solution* is a sequence of actions that goes from a start state to a goal state.
 
 
-## DEPTH-FIRST SEARCH
+## Depth First Search
 
 Expands the deepest node first. Frontier is usually a stack.
 
@@ -48,7 +48,7 @@ Expands the deepest node first. Frontier is usually a stack.
 Where $$m$$ is the maximum depth of the search tree.
 
 
-## BREADTH-FIRST SEARCH
+## Breadth First Search
 
 Expands one level at a time. Frontier is usually a queue.
 
@@ -61,7 +61,7 @@ Expands one level at a time. Frontier is usually a queue.
 Where $$s$$ is the depth of the search tree where a solution exists.
 
 
-## ITERATIVE DEEPENING
+## Iterative Deepening
 
 DFS with increasing depth limits.
 
@@ -71,7 +71,7 @@ DFS with increasing depth limits.
 - Space complexity: $$O\pars{bs}$$
 
 
-## UNIFORM-COST SEARCH
+## Uniform Cost Search
 
 Takes into account the *cost* of reaching a node. Frontier is usually a priority queue (based on
 cumulative cost).

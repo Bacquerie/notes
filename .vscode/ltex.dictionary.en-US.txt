@@ -3,3 +3,5 @@ Pacbaby
 toc
 Pacman
 Pac-City
+Minimax
+Expectimax

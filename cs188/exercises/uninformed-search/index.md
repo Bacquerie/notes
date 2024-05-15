@@ -10,7 +10,7 @@ parent: CS 188 - Exercises
 # UNINFORMED SEARCH
 {:.no_toc}
 ---
-## Table of Contents
+## Table Of Contents
 {:.no_toc.text-delta}
 - TOC
 {:toc}
@@ -18,7 +18,7 @@ parent: CS 188 - Exercises
 
 
 <!-- SEARCH PROBLEM FORMULATION ------------------------------------------------------------------->
-## SEARCH PROBLEM FORMULATION
+## Search Problem Formulation
 
 Pacman bought a car, was speeding in Pac-City, and SpongeBob wasn’t able to catch him. Now Pacman
 has run out of gas, his car has stopped, and he is currently hiding out at an undisclosed location.
@@ -120,7 +120,7 @@ combined pass through all $$m \times n$$ grid locations. What's the size of the 
 
 
 <!-- GRAPH SEARCH BY HAND ------------------------------------------------------------------------->
-## GRAPH SEARCH BY HAND
+## Graph Search By Hand
 
 ```mermaid
 graph LR
@@ -378,7 +378,7 @@ represent the node `A` with parent `S`.
 
 
 <!-- SEARCH PROPERTIES ------------------------------------------------------------------------->
-## SEARCH PROPERTIES
+## Search Properties
 
 Consider a graph search problem where, for every action, the cost is at least $$\epsilon > 0$$, and
 explain whether each of the following statements is true or false.

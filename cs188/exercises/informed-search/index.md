@@ -10,7 +10,7 @@ parent: CS 188 - Exercises
 # INFORMED SEARCH
 {:.no_toc}
 ---
-## Table of Contents
+## Table Of Contents
 {:.no_toc.text-delta}
 - TOC
 {:toc}
@@ -18,7 +18,7 @@ parent: CS 188 - Exercises
 
 
 <!-- STATE-SPACE FORMULATION ---------------------------------------------------------------------->
-## STATE-SPACE FORMULATION
+## State Space Formulation
 
 It is training day for Pacbabies, also known as Hungry Running Maze Games day. Each of $$k$$
 Pacbabies starts in its own assigned start location $$s_i$$ in a large maze of size $$M \times N$$
@@ -82,7 +82,7 @@ Pacbabies must find an optimal collective solution.
 
 
 <!-- HEURISTICS ----------------------------------------------------------------------------------->
-## HEURISTICS
+## Heuristics
 
 You'd like to choose two heuristic functions, $$f$$ and $$g$$, such that max$$(f(n), g(n))$$ is an
 admissible heuristic.
@@ -112,7 +112,7 @@ $$ h(n) = \alpha f(n) + (1 - \alpha) g(n) $$ is admissible for any value $$\alph
 
 
 <!-- POWER PELLETS -------------------------------------------------------------------------------->
-## POWER PELLETS
+## Power Pellets
 
 Consider a Pacman game where Pacman can eat 3 types of pellets:
 
@@ -181,7 +181,7 @@ travelled. The cost between states is equal to the distance travelled.
 
 
 <!-- INCONSISTENT HEURISTICS ---------------------------------------------------------------------->
-## INCONSISTENT HEURISTICS
+## Inconsistent Heuristics
 
 The heuristic values for the graph below are not correct. For which single state (S, A, B, C, D, or
 G) could you change the heuristic value to make everything admissible and consistent? What range of
