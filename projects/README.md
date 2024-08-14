@@ -18,4 +18,4 @@ what I expect them to do.
      in desired conveyor belts.
 
 
-[AUTOMATED WAREHOUSE ADMINISTRATION]: automated_warehouse/README.html
+[AUTOMATED WAREHOUSE ADMINISTRATION]: automated_warehouse/README
