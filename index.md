@@ -1,36 +1,31 @@
 ---
 title: Home
 layout: home
+has_children: false
+has_toc: false
 nav_exclude: true
-nav_order: 1
-toc: true
+---
+# ARTIFICIAL INTELLIGENCE PROJECTS
 ---
 
 
-# CS Notes
----
+This repository contains several software and hardware projects I've implemented (am currently
+implementing or that I plan to implement) in the last/next few years, through my study of
+Artificial Intelligence. As such, they display varying levels of *real-world* fidelity, with my
+first projects being simulations based on a lot of (unrealistic) assumptions such as: no friction,
+particle kinematics, no uncertainty, etc.
 
-This page contains my work and notes related to the courses of my interest in computer science. It
-is currently a work in progress and in constant (but slow) growth. The main purpose of this site
-is to serve as a centralized source of information mostly for myself, as I'm planning to study a
-Master of Science in Computer Science with an emphasis in Artificial Intelligence / Machine Learning,
-and I'll have a lot of work to do with both, formal and informal courses I'll take in the following
-years.
+Not all of these projects are meant to be capstone research/industry-level projects (I wonder if
+any will be), but most of them are my way to reinforce specific concepts like: *Dijkstra's
+algorithm, Markov decision processes, Kalman filters, PID control*, etc. I hope that each of my
+projects lists the topics I intend to apply, and also that they get inscreasing scopes as I
+progress through my study.
 
-For now, I only have a bit of content about:
+Finally, these projects are divided into two categories:
 
-- **[Artificial Intelligence]**, mostly but not exclusively based on *Berkeley's CS 188* public content.
-- **[Deep Learning]**, mostly but not exclusively based on *Stanford's CS 230* public content, and its
-related Coursera specialization.
-
-But I'm planning to add the product of my study for:
-
-- **Stanford's CS 129** (finished; pending to add to this site)
-- **Coursera's Natural Language Processing Specialization** (finished; pending to add to this site)
-- Many more when I actually start OMSCS: Artificial Intelligence, Deep Learning, Computer Vision,
-Natural Language Processing, Game AI, Artificial Intelligence for Robotics, etc...
-
-
-<!-- REFERENCES -->
-[Artificial Intelligence]: cs188
-[Deep Learning]: cs230
+1. **Practices**: Short programs for which I slotted (in planning, not necessarily in
+   implementation) around two weeks and are highly-limited in scope. In my mind these would mimic
+   a bi-weekly programming project in a college course.
+2. **Projects**: Not so short programs for which I slotted around 3-5 weeks, where I tried to apply
+   more than one topic at once. In my mind these would serve as midterm projects or final (not
+   gigantic) projects.
