@@ -4,9 +4,6 @@ import math
 from typing import NamedTuple
 
 
-# GENERAL DEFINITIONS
-
-
 class Successor(NamedTuple):
     """
     Contains information retrieved by `SearchProblem.get_successors`.
@@ -47,9 +44,6 @@ class SearchProblem(abc.ABC):
         raise NotImplementedError
 
 
-# GRID 2D IMPLEMENTATION
-
-
 class Location2D(NamedTuple):
     """
     Represents a 2D discrete location.
@@ -65,13 +59,9 @@ class Action(enum.Enum):
     """
 
     N: Location2D = (-1, 0)
-    #NE: Location2D = (-1, 1)
     E: Location2D = (0, 1)
-    #SE: Location2D = (1, 1)
     S: Location2D = (1, 0)
-    #SW: Location2D = (1, -1)
     W: Location2D = (0, -1)
-    #NW: Location2D = (-1, -1)
 
     def apply(self, location: Location2D) -> Location2D:
         """
@@ -82,7 +72,6 @@ class Action(enum.Enum):
 
     def get_icon(self) -> str:
         i: int = _actions.index(self)
-        #icons: list[str] = ["⬆️", "↗️", "➡️", "↘️", "⬇️", "↙️", "⬅️", "↖️"]
         icons: list[str] = ["⬆️", "➡️", "⬇️", "⬅️"]
         return icons[i]
 
@@ -100,6 +89,7 @@ class CellType(enum.Enum):
     Possible cells appearing in a `Grid2D` map.
     """
 
+    BELT: str = "B"
     FREE: str = " "
     RACK: str = "*"
     WALL: str = "#"

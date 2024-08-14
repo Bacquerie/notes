@@ -29,6 +29,7 @@ class Icon(enum.Enum):
 
 
 char_map: dict[str, str] = {
+    CellType.BELT.value: Icon.BELT.value,
     CellType.FREE.value: Icon.FREE.value,
     CellType.RACK.value: Icon.RACK.value,
     CellType.WALL.value: Icon.WALL.value,
@@ -57,7 +58,6 @@ class ConsoleSimulator(Simulator):
     def __init__(
         self,
         map_path: str,
-        belts: list[Location2D],
         rests: list[Location2D]
     ) -> None:
         """
@@ -66,7 +66,7 @@ class ConsoleSimulator(Simulator):
         :param rests: Resting locations.
         """
         self.map: list[str] = util.read_map(map_path)
-        self.belts: list[Location2D] = belts
+        self.belts: list[Location2D] = self._get_cells(CellType.BELT)
         self.rests: list[Location2D] = rests
         # Optimal navigation policy for each conveyor belt.
         self.belt_policies: dict[
@@ -143,7 +143,6 @@ class ConsoleSimulator(Simulator):
         Returns the package that's most "transport efficient" for `robot`.
         """
 
-        # TODO: Compute M vs N distances to find optimal assignations.
         def cost(package: Package) -> float:
             """
             Computes the cost of transporting `package`.
@@ -201,8 +200,6 @@ class ConsoleSimulator(Simulator):
                     layout[-1] += Icon.PACKAGE.value
                 elif (j, i) in r_locations:
                     layout[-1] += Icon.ROBOT.value
-                elif (j, i) in self.belts:
-                    layout[-1] += Icon.BELT.value
                 elif (j, i) in self.rests:
                     layout[-1] += Icon.REST.value
                 else:
