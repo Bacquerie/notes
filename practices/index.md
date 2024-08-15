@@ -45,4 +45,5 @@ only cross out obsolete content.
 
 <!--------------------------- REFERENCES ---------------------------------------------------------->
 
+[Rodent Control]: rodent_control
 [Automated Warehouse Administration]: automated_warehouse
