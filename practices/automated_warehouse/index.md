@@ -1,6 +1,6 @@
 ---
 layout: mathjax
-nav_order: 1
+nav_order: 2
 title: Automated Warehouse Administration
 parent: Practices
 ---
@@ -26,7 +26,7 @@ designated conveyor belts, helping in a (out of scope) package delivery process.
 
 
 ---
-## High-Level Behavior
+## High-Level Expected Behavior
 
 
 1. The simulation starts in a pre-set environment or warehouse, where there are $$M$$ fixed
@@ -57,13 +57,15 @@ designated conveyor belts, helping in a (out of scope) package delivery process.
 ---
 ## Implementation Details
 
-1. The current implementation is based on a single thread; thus, all agents run sequentially, in
+1. The current implementation displays on the console, with emojis.
+   
+2. The current implementation is based on a single thread; thus, all agents run sequentially, in
    locksteps.
 
-2. When assigning packages to robots, no particular order is assumed. Each robot is iterated
+3. When assigning packages to robots, no particular order is assumed. Each robot is iterated
    sequentially, in the order they were created.
 
-3. A new order is created when all robots have delivered their current packages.
+4. A new order is created when all robots have delivered their current packages.
 
 
 ---
@@ -72,15 +74,15 @@ designated conveyor belts, helping in a (out of scope) package delivery process.
 <img src="demo.gif">
 
 Icons:
-* The corners are the *resting locations*
-* The icons at the bottom are the *conveyor belts*
-* The blue many icons in the middle are the racks
+* The *resting locations* are the icons on the corners
+* The icons at the middle-bottom are the *conveyor belts*
+* The lots of blue icons in the middle are the racks
 
 
 ---
 ## Possible Improvements
 
-1. Manage each robot in their own thread.
+1. Manage each robot in its own thread.
 
 2. Create optimal *robot-package* assignations.
 
